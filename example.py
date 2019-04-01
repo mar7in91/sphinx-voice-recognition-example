@@ -3,5 +3,5 @@ for phrase in LiveSpeech():
     print("Interpreted word: \t" + str(phrase))
     if "hello" in str(phrase):
         print("You're saluting me! =)")
-    else:
-        print("That's not a salutation! =(")
+    elif "goodbye" in str(phrase):
+        print("Goodbye to you too! =)")
